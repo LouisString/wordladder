@@ -3,7 +3,7 @@ import java.util.*;
 
 public class buildladder {
 
-    public static void find_ladder(String word1, String word2, List<String> word_list){
+    public static void find_ladder(String word1, String word2,Map word_list){
 
         List<String> used_words = new ArrayList<>();
         Queue<LinkedList<String>> ladders = new LinkedList<LinkedList<String>>();
@@ -32,7 +32,7 @@ public class buildladder {
                     sb.replace(i, i+1, new_letter);
                     changed_word = (sb.toString());
 
-                    if (word_list.contains(changed_word)){
+                    if (word_list.containsKey(changed_word)){
                         if (!used_words.contains(changed_word)){
                             used_words.add(changed_word);
                             if (changed_word.equals(word2)){

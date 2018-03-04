@@ -1,5 +1,0 @@
-buildladder.java is a class that is used to build word ladder between 2 ladders;
-readfile.java is a class that is used to build word dictionary from given file;
-userInterface.java is the main class that uses above 2 classes.
-
-This version executes in fairly slow speed, please wait patiently for completion.
