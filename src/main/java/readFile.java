@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class readfile {
+public class readFile {
 
     public static Map readTxtFile(String filePath){
         try {
