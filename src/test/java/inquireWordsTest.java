@@ -41,10 +41,10 @@ public void testGet_words() throws Exception {
     test_list.put("on", 0);
 
     inquireWords i = new inquireWords();
-    List<String> words = i.getWords(test_list);
 
-    String word1 = words.get(0);
-    String word2 = words.get(1);
+
+    String word1 = "an";
+    String word2 = "on";
 
     assertTrue(test_list.containsKey(word1));
     assertTrue(test_list.containsKey(word2));
